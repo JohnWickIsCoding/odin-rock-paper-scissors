@@ -66,8 +66,8 @@ function playGame() {
             console.log(`Computer score: ${computerScore}`)
             console.log("")
         }else if (humanChoice === "scissors" && computerChoice === "paper") {
-           console.log(`You chose ${humanChoice}`)
-           console.log(`Computer chose ${computerChoice}`)
+            console.log(`You chose ${humanChoice}`)
+            console.log(`Computer chose ${computerChoice}`)
             console.log("You win! Scissors beats paper")
             humanScore++
             console.log(`Your score: ${humanScore}`)
